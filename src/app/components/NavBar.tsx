@@ -20,7 +20,7 @@ const NavBar = () => {
         ></div>
         <a className='btn btn-ghost text-xl'>JD</a>
       </div>
-      <div className='navbar-center hidden lg:flex'>
+      <div className='navbar-center flex'>
         <ul className='menu menu-horizontal px-1 '>
           <li>
             <a href='#about'>about</a>
