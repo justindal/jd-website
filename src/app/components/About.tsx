@@ -17,18 +17,51 @@ const About = () => {
             about
           </h2>
           <p className='mt-6 text-lg leading-8 text-gray-300'>
-            hi! my name is justin daludado and i'm a computer science student.
-            i'm in my 3rd year of my honours bachelor of computer science degree
-            at carleton university with a focus in cybersecurity. this site is a work in progress!
+            Hi! My name is Justin Daludado and I'm a computer science student at
+            Carleton University. I'm in my 3rd year of my Honours Bachelor of
+            Computer Science degree with a focus in Cybersecurity. this site is
+            a work in progress!
           </p>
         </div>
         <div className='mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none'>
           <h3 className='text-3xl font-bold'>technologies i've worked with:</h3>
-          <div className='flex space-x-4'></div>
-          <div className='grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10'>
-            <a href='#projects'>
-              check out some of my projects <span aria-hidden='true'>→</span>
-            </a>
+          <div className='flex flex-wrap space-x-4'>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              python
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              c
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              c++
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              java
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              javascript
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              html/css
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              react
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              node.js
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              express
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              postgresql
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              next.js
+            </span>
+            <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
+              Qt
+            </span>
           </div>
         </div>
       </div>

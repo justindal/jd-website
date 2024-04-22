@@ -1,5 +1,6 @@
 'use client'
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
   const scrollToTop = () => {
@@ -10,34 +11,41 @@ const NavBar = () => {
   }
 
   return (
-    <div className='navbar bg-base-300 rounded-xl sticky top-0 z-50 mt-3'>
+    <div className='navbar bg-base-300 rounded-xl sticky top-0 z-50 mt-3 mb-3'>
       <div className='navbar-start'>
         <div
           tabIndex={0}
           role='button'
           className='btn btn-ghost lg:hidden'
-          onClick={scrollToTop}
         ></div>
-        <a className='btn btn-ghost text-xl'>JD</a>
+        <a className='btn text-xl' onClick={scrollToTop}>
+          JD
+        </a>
       </div>
-      <div className='navbar-center flex'>
-        <ul className='menu menu-horizontal px-1 '>
+      <div className='navbar-center'>
+        <ul className='menu menu-horizontal px-1'>
           <li>
-            <a href='#about'>about</a>
+            <Link to='about' smooth={true}>
+              About
+            </Link>
           </li>
           <li>
-            <a href='#projects'>projects</a>
+            <Link to='projects' smooth={true}>
+              Projects
+            </Link>
           </li>
           <li>
-            <a href='#contact'>contact</a>
+            <Link to='contact' smooth={true}>
+              Contact
+            </Link>
           </li>
           <li>
-            <a href='/JustinDaludadoResume.pdf'>resume</a>
+            <a href='/JustinDaludadoResume.pdf'>Resume</a>
           </li>
         </ul>
       </div>
       <div className='navbar-end'>
-        <div className='flex space-x-4'>
+        <div className=''>
           <a
             href='https://github.com/justindal'
             className='btn btn-square btn-ghost'
