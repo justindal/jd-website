@@ -1,19 +1,19 @@
 import React from 'react'
 
-const ProjectCard = () => {
+interface ProjectCardProps {
+  title: string
+  description: string
+  image: string
+}
+
+const ProjectCard = ({ title, description, image }: ProjectCardProps) => {
   return (
-    <div className='card lg:card-side bg-base-100 shadow-xl mt-5 w-2/5 h-3/4'>
-      <figure>
-        <img
-          src='https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg'
-          alt='Album'
-        />
-      </figure>
-      <div className='card-body'>
-        <h2 className='card-title'>New album is released!</h2>
-        <p>Click the button to listen on Spotiwhy app.</p>
-        <div className='card-actions justify-end'>
-          <button className='btn btn-primary'>Listen</button>
+    <div className='hero h-64 bg-base-200 rounded-xl'>
+      <div className='hero-content flex-col'>
+        <img src={image} className='max-w-sm rounded-lg shadow-2xl' />
+        <div>
+          <h1 className='text-3xl font-bold'>{title}</h1>
+          <p className='py-6'>{description}</p>
         </div>
       </div>
     </div>

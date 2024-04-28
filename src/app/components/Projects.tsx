@@ -13,9 +13,7 @@ const Projects = () => {
             projects
           </h2>
           <div className='flex flex-wrap space-x-4 p-4'>
-            <ProjectCard></ProjectCard>
-            <ProjectCard></ProjectCard>
-            <ProjectCard></ProjectCard>
+            <ProjectCard title='Project1' image='/grademanagerimage.png' description='desc'></ProjectCard>
           </div>
         </div>
       </div>
