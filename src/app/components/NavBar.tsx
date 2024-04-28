@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 
 const NavBar = () => {
@@ -10,20 +10,14 @@ const NavBar = () => {
     })
   }
 
+  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false)
+
   return (
-    <div className='navbar bg-base-300 rounded-xl sticky top-0 z-50 mt-3 mb-3'>
+    <div className='navbar bg-base-300 rounded-xl flex lg:flex-row justify-center items-center'>
       <div className='navbar-start'>
-        <div
-          tabIndex={0}
-          role='button'
-          className='btn btn-ghost lg:hidden'
-        ></div>
-        <a className='btn text-xl' onClick={scrollToTop}>
-          JD
-        </a>
       </div>
       <div className='navbar-center'>
-        <ul className='menu menu-horizontal px-1'>
+        <ul className='menu menu-horizontal'>
           <li>
             <Link to='about' smooth={true}>
               About
