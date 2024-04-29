@@ -8,7 +8,8 @@ const Carousel = () => {
       <div id='slide1' className='carousel-item relative w-full'>
         <ProjectCard
           title='This Portfolio - 2024'
-          description='I wrote this portfolio using React and TailwindCSS. I used Next.js to handle routing and deployment. The server is hosted on my own cloud instance using Oracle Cloud Infrastructure.'
+          description='I wrote this portfolio using React with Typescript and TailwindCSS. 
+          I used Next.js to handle routing and deployment. The server is hosted on my own cloud instance using Oracle Cloud Infrastructure.'
           image='/images/portfolio_image.jpeg'
         >
           <a

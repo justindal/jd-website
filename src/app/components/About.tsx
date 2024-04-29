@@ -21,8 +21,10 @@ const About = () => {
             Carleton University. I'm in my 3rd year of my Honours Bachelor of
             Computer Science degree with a focus in Cybersecurity. I've gained
             experience in programming through my school courses and my own
-            personal projects. I aim to work as a Software Developer! this site
-            is a work in progress!
+            personal projects. I aim to work as a Software Developer! This site
+            is ongoing and will be updated with new projects and information as
+            I progress through my degree. Feel free to reach out to me through
+            the contact with my information below!
           </p>
         </div>
         <div className='mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none'>
