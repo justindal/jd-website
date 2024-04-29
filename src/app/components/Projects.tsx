@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
+import Carousel from './Carousel'
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
             projects
           </h2>
           <div className='flex flex-wrap space-x-4 p-4'>
-            <ProjectCard title='Project1' image='/grademanagerimage.png' description='desc'></ProjectCard>
+            <Carousel></Carousel>
           </div>
         </div>
       </div>
