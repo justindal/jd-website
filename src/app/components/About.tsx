@@ -17,9 +17,9 @@ const About = () => {
             about
           </h2>
           <p className='mt-6 text-lg leading-8 text-gray-300'>
-            Hi! My name is Justin Daludado and I'm a computer science student at
-            Carleton University. I'm in my 3rd year of my Honours Bachelor of
-            Computer Science degree with a focus in Cybersecurity. I've gained
+            Hi! My name is Justin Daludado and I&apos;m a computer science student at
+            Carleton University. I&apos;m in my 3rd year of my Honours Bachelor of
+            Computer Science degree with a focus in Cybersecurity. I&apos;ve gained
             experience in programming through my school courses and my own
             personal projects. I aim to work as a Software Developer! This site
             is ongoing and will be updated with new projects and information as
@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </div>
         <div className='mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none'>
-          <h3 className='text-3xl font-bold'>technologies i've worked with:</h3>
+          <h3 className='text-3xl font-bold'>technologies i&apos;ve worked with:</h3>
           <div className='flex flex-wrap space-x-4'>
             <span className='inline-block px-4 py-2 mt-4 text-base font-semibold text-white bg-gray-800 rounded-lg'>
               python
