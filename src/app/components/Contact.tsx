@@ -17,7 +17,7 @@ const Contact = () => {
           </p>
           <div className='mt-8'>
             <a
-              href='mailto:justin@justindaludado.live'
+              href='mailto:justinbdaludado@gmail.com'
               className='btn btn-primary mr-4'
             >
               Email
