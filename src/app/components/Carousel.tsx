@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import Button from './Button'
+import Link from 'next/link'
 
 const Carousel = () => {
   return (
@@ -13,7 +14,24 @@ const Carousel = () => {
           see their the specific posts of others. Hosted on Oracle Cloud Infrastructure compute using OCI Object Storage for image storage.
           Component styling done with TailwindCSS and shadcnUI.'
           image='/images/dsm.jpeg'
-        ></ProjectCard>
+        >
+          <div className="flex space-x-4">
+            <a
+              href='https://dont-secure.me'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button text='Link to site'></Button>
+            </a>
+            <a
+              href='https://github.com/justindal/dont-secure.me'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Button text='Github link'></Button>
+            </a>
+          </div>
+        </ProjectCard>
         <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
           <a href='#slide5' className='btn btn-circle'>
             ❮
