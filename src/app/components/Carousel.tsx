@@ -12,7 +12,7 @@ const Carousel = () => {
           description='A full-stack social media web application written with Next.js and React. I used the non-relational database, MongoDB to
           store all user information. Users can create accounts, create posts, and like and save posts. Users can also follow each other to
           see their the specific posts of others. Hosted on Oracle Cloud Infrastructure compute using OCI Object Storage for image storage.
-          Component styling done with TailwindCSS and shadcnUI.'
+          Component styling done with TailwindCSS and shadcnUI. Implemented user authentication using auth.js'
           image='/images/dsm.jpeg'
         >
           <div className="flex space-x-4">
