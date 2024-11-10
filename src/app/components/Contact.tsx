@@ -31,7 +31,7 @@ const Contact = () => {
               GitHub
             </a>
             <a
-              href='https://www.linkedin.com/in/justin-daludado-33752221a/'
+              href='https://www.linkedin.com/in/justin-daludado/'
               target='_blank'
               rel='noopener noreferrer'
               className='btn btn-primary'

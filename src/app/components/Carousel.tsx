@@ -15,7 +15,7 @@ const Carousel = () => {
           Component styling done with TailwindCSS and shadcnUI. Implemented user authentication using auth.js'
           image='/images/dsm.jpeg'
         >
-          <div className="flex space-x-4">
+          <div className='flex space-x-4'>
             <a
               href='https://dont-secure.me'
               target='_blank'
@@ -48,15 +48,7 @@ const Carousel = () => {
           description='I wrote this portfolio using React with Typescript and TailwindCSS. 
           I used Next.js to handle routing and deployment. The server is hosted on my own cloud instance using Oracle Cloud Infrastructure.'
           image='/images/portfolio_image.jpeg'
-        >
-          <a
-            href='https://github.com/justindal/jd-website'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <Button text='Github link'></Button>
-          </a>
-        </ProjectCard>
+        ></ProjectCard>
         <div className='absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2'>
           <a href='#slide1' className='btn btn-circle'>
             ❮
